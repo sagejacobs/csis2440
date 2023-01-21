@@ -7,7 +7,7 @@
     <?php
     $balloon = "./img/balloon.webp";
     echo "<h1>Happy Birthday!</h1>";
-    echo "<img src='$balloon' alt='balloons!'>"
+    echo "<img src='$balloon' alt='balloons!' width='500px' height='500px'>"
     ?>
     </body>
 </html>
