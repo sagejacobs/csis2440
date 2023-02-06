@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <?php
 $album = array(
-    array("title" => "Nocturnal", "artist" => "MOTHICA"),
-    array("title" => "The Silver Scream", "artist" => "Ice Nine Kills"),
-    array("title" => "Welcome to Horrorwood", "artist" => "Ice Nine Kills"),
-    array("title" => "Damaged Vol.2", "artist" => "bulow"),
-    array("title" => "The Fall of Hobo Johnson", "artist" => "Hobo Johnson"),
-    array("title" => "time of our lives", "artist" => "Christian French"),
-    array("title" => "bright side of the moon", "artist" => "Christian French"),
-    array("title" => "Desensitize", "artist" => "DREAMERS"),
-    array("title" => "Lemon Boy", "artist" => "Cavetown"),
-    array("title" => "Elsewhere", "artist" => "Set it Off"),
+    array("Title" => "Nocturnal", "Artist" => "MOTHICA"),
+    array("Title" => "The Silver Scream", "Artist" => "Ice Nine Kills"),
+    array("Title" => "Welcome to Horrorwood", "Artist" => "Ice Nine Kills"),
+    array("Title" => "Damaged Vol.2", "Artist" => "bulow"),
+    array("Title" => "The Fall of Hobo Johnson", "Artist" => "Hobo Johnson"),
+    array("Title" => "time of our lives", "Artist" => "Christian French"),
+    array("Title" => "bright side of the moon", "Artist" => "Christian French"),
+    array("Title" => "Desensitize", "Artist" => "DREAMERS"),
+    array("Title" => "Lemon Boy", "Artist" => "Cavetown"),
+    array("Title" => "Elsewhere", "Artist" => "Set it Off"),
 );
 ?>
 <html lang="en">
