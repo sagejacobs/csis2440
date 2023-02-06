@@ -15,6 +15,7 @@ body {
     background-color: #354252;
     color: #AABDD5;
     font-family: 'Alata', sans-serif;
+
 }
 .projectLink {
     text-decoration: none;
@@ -69,4 +70,9 @@ tr {
 td {
     border: #1b2430 solid 2px;
     padding: .1rem;
+}
+div.music-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

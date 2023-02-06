@@ -19,21 +19,23 @@ $album = array(
         <title>Music</title>
     </head>
     <body>
-        <?php if (count($album) > 0): ?>
-        <table>
-            <thead>
-                <tr>
-                    <th><?php echo implode('</th><th>', array_keys(current($album)))?></th>
-                </tr>
-            </thead>
-            <tbody>
-            <?php foreach ($album as $row): array_map('htmlentities', $row);?>
-                <tr>
-                    <td><?php echo implode('</td><td>', $row); ?></td>
-                </tr>
-            <?php endforeach; ?>
-            </tbody>
-        </table>
+        <div class="music-table">
+            <?php if (count($album) > 0): ?>
+            <table>
+                <thead>
+                    <tr>
+                        <th><?php echo implode('</th><th>', array_keys(current($album)))?></th>
+                    </tr>
+                </thead>
+                <tbody>
+                <?php foreach ($album as $row): array_map('htmlentities', $row);?>
+                    <tr>
+                        <td><?php echo implode('</td><td>', $row); ?></td>
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
     </body>
 </html>
 <?php endif; ?>
