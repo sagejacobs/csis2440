@@ -57,3 +57,11 @@ div#quote-display{
 .cookie {
     animation: rotating 20s linear infinite;
 }
+
+th {
+    border: #1b2430 solid 2px;
+}
+
+tr {
+    border: #1b2430 solid 2px;
+}
