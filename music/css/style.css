@@ -59,9 +59,13 @@ div#quote-display{
 }
 
 th {
-    border: #1b2430 solid 2px;
+    border-bottom: #1b2430 solid 2px;
 }
 
 tr {
+    border-bottom: #1b2430 solid 2px;
+}
+
+td {
     border: #1b2430 solid 2px;
 }
