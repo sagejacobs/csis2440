@@ -15,6 +15,7 @@ $album = array(
 ?>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="css/style.css"/>
         <title>Music</title>
     </head>
     <body>
