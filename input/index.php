@@ -10,8 +10,8 @@
             $phone = $_POST["phone"];
             $email = $_POST["email"];
         
-            echo "Thank you! Your phone number is: " . $phone . "<br>";
-            echo "And your email address is: " . $email . "<br>";
+            echo "<p>Thank you! Your phone number is: " . $phone . "</p><br>";
+            echo "<p>And your email address is: " . $email . "</p><br>";
         } else {
             ?>
             <div class="post-form">
