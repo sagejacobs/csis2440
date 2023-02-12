@@ -14,15 +14,18 @@
             echo "And your email address is: " . $email . "<br>";
         } else {
             ?>
-            <form method="post">
-                <label>Phone Number:
-                    <input type="text" name="phone">
-                </label><br><br>
-                <label>Email Address:
-                    <input type="text" name="email">
-                </label><br><br>
-                <input type="submit" name="submit" value="Submit">
-            </form>
+            <div class="post-form">
+                <form method="post">
+                    <label>Phone Number:
+                        <input type="text" name="phone">
+                    </label><br><br>
+                    <label>Email Address:
+                        <input type="text" name="email">
+                    </label><br><br>
+                    <input type="submit" name="submit" value="Submit">
+                </form>
+            </div>
+
             <?php
         }
         ?>

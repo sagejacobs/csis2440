@@ -2,77 +2,15 @@
     margin: 0;
     padding: 0;
 }
-div.main {
-    height: 100%;
+div.post-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
-    text-align: center;
 }
 body {
     background-color: #354252;
     color: #AABDD5;
     font-family: 'Alata', sans-serif;
 
-}
-.projectLink {
-    text-decoration: none;
-    color: #aac5e6;
-    border: 2px #b3d0f3 solid;
-    margin: 3%;
-    transition: all .2s ease-in-out;
-    padding: .5%;
-    background-color: #1b2430;
-}
-.projectLink:hover {
-    transform: scale(110%);
-}
-h1 {
-    font-family: 'Fredericka the Great', cursive;
-    padding-top: 2rem;
-}
-button:hover {
-    transform: scale(110%)
-}
-div.buttons {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-a.website-title {
-    margin-left: 11px;
-}
-div#quote-display{
-    margin: 2%;
-}
-
-@keyframes rotating {
-    from {
-        transform: rotate(0deg);
-    } to {
-          transform: rotate(360deg);
-      }
-}
-.cookie {
-    animation: rotating 20s linear infinite;
-}
-
-th {
-    border-bottom: #1b2430 solid 2px;
-}
-
-tr {
-    border-bottom: #1b2430 solid 2px;
-}
-
-td {
-    border: #1b2430 solid 2px;
-    padding: .1rem;
-}
-div.music-table {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
